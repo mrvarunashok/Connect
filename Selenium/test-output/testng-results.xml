@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13649" started-at="2019-09-19T05:57:14Z" finished-at="2019-09-19T05:57:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13649" started-at="2019-09-19T05:57:14Z" finished-at="2019-09-19T05:57:28Z">
+      <class name="ConnectTest.VarunTest2">
+        <test-method status="PASS" signature="loginConn(java.lang.String, java.lang.String)[pri:0, instance:ConnectTest.VarunTest2@6cc4c815]" name="loginConn" duration-ms="2224" started-at="2019-09-19T11:27:24Z" finished-at="2019-09-19T11:27:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[varunashok]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brown#251@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginConn -->
+      </class> <!-- ConnectTest.VarunTest2 -->
+      <class name="ConnectTest.VarunTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:ConnectTest.VarunTest@548a9f61]" name="launchBrowser" is-config="true" duration-ms="4094" started-at="2019-09-19T11:27:14Z" finished-at="2019-09-19T11:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:ConnectTest.VarunTest2@6cc4c815]" name="launchBrowser" is-config="true" duration-ms="3436" started-at="2019-09-19T11:27:18Z" finished-at="2019-09-19T11:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginConn(java.lang.String, java.lang.String)[pri:0, instance:ConnectTest.VarunTest@548a9f61]" name="loginConn" duration-ms="2270" started-at="2019-09-19T11:27:22Z" finished-at="2019-09-19T11:27:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[varunashok]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brown#251@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginConn -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:ConnectTest.VarunTest@548a9f61]" name="terminateBrowser" is-config="true" duration-ms="820" started-at="2019-09-19T11:27:26Z" finished-at="2019-09-19T11:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:ConnectTest.VarunTest2@6cc4c815]" name="terminateBrowser" is-config="true" duration-ms="792" started-at="2019-09-19T11:27:27Z" finished-at="2019-09-19T11:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- ConnectTest.VarunTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

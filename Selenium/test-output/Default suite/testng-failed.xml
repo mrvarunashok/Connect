@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="sUsername" value="varunashok"/>
+  <parameter name="sPassword" value="varun123"/>
+  <test name="Default test(failed)" preserve-order="true">
+    <parameter name="sUsername" value="varunashok"/>
+    <parameter name="sPassword" value="varun123"/>
+    <classes>
+      <class name="ConnectTest.VarunTest">
+        <methods>
+          <include name="loginConn" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- ConnectTest.VarunTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
